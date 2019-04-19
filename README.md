@@ -9,7 +9,7 @@
 
 ## Routes
 - `GET /`       : Home.
-- `POST /test/` : Returns 3rd character of a given param string. 
+- `POST /test/` : Returns 3rd character of a given string. 
 
 ## Test locally 
  
