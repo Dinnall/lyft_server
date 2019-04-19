@@ -11,6 +11,15 @@
 - `GET /`       : Home.
 - `POST /test/` : Returns 3rd character of a given param string. 
 
+## Test locally 
+ 
+clone the repository, navigate to project.
+
+Install dependencies: `npm install`
+
+Start server: `npm start`
+
+Open in your browser . [http://localhost:8080](http://localhost:8080) 
 
 
 Test Cases:
