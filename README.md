@@ -16,7 +16,7 @@
 Test Cases:
 # 1
 ```
-$ curl -X POST http://localhost:3000/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
+$ curl -X POST http://localhost:8080/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 ```
 
 expected return:
@@ -26,7 +26,7 @@ expected return:
 
 # 2
 ```
-$ curl -X POST http://localhost:3000/test --data '{"string_to_cut": "california"}' -H 'Content-Type: application/json'
+$ curl -X POST http://localhost:8080/test --data '{"string_to_cut": "california"}' -H 'Content-Type: application/json'
 ```
 
 expected return:
@@ -36,7 +36,7 @@ expected return:
 
 # 3
 ```
-$ curl -X POST http://localhost:3000/test --data '{"string_to_cut": "IloveJamaicanFood"}' -H 'Content-Type: application/json'
+$ curl -X POST http://localhost:8080/test --data '{"string_to_cut": "IloveJamaicanFood"}' -H 'Content-Type: application/json'
 ```
 
 expected return:
