@@ -7,21 +7,12 @@ appRoutes.get('/', (req, res) => {
 
 });
 
-appRoutes.post('/test', (req, res) => {
-const { str } = req.body;
-  
-  let result = httpsRequest.getThirdCharFromAstring( str )
-        .then(data => {
-            res.json({ 
-            "return_string": result 
-           });
-        })
-        .catch(e => {
-            res.status(400);
-            res.json({
-                error: e.toString(),
-            })
-        })
+appRoutes.post('/', (req, res) => {
+const { string_to_cut } = req.body;
+let result = httpsRequest.getThirdCharFromAstring(string_to_cut )
+
+res.json({ "return_string": result });
+
 });
 
 module.exports = appRoutes;

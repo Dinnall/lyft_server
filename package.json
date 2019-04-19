@@ -4,6 +4,7 @@
   "description": "Simple server test to return 3rd character in any given string",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Dinnall",

@@ -2,10 +2,10 @@ class RouteClass {
   constructor() {
   }
 
-getThirdCharFromAstring(str) { 
+getThirdCharFromAstring(string_to_cut) { 
 let result = '';
-  for(let x = 2; x < str.length;x+=3){
-        result+=str[x]
+  for(let x = 2; x < string_to_cut.length;x+=3){
+        result+= string_to_cut.charAt(x)
       }
     return result;
 }

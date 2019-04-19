@@ -13,7 +13,7 @@
 
 ## Test locally 
  
-clone the repository, navigate to project.
+Clone the repository, navigate to project.
 
 Install dependencies: `npm install`
 
